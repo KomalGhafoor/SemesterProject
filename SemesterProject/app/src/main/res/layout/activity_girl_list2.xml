@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    android:orientation="vertical"
+    tools:context=".girlList2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/bungee"
+            android:text="GIRLS HOSTEL LIST"
+            android:textSize="24sp"
+            android:transitionName="logo_text"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hostel names With phone number"
+            android:textSize="20dp"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/saba"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/hostell_iconn"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/saba"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="    Saba girls Hostel"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp">
+
+        <ImageView
+            android:id="@+id/saba1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/phone_icon"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/saba1"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="    +923002122232"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/faiza"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/hostell_iconn"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/faiza"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="    Faiza girls Hostel"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp">
+
+        <ImageView
+            android:id="@+id/faiza1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/phone_icon"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/faiza1"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="    +923003242526"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/nayab"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/hostell_iconn"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/nayab"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="    Nayab girls Hostel"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp">
+
+        <ImageView
+            android:id="@+id/nayab1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/phone_icon"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/nayab1"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="    +923002728293"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/c2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:text="Back"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

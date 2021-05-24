@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    android:orientation="vertical"
+    tools:context=".boyList2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/bungee"
+            android:text="BOYS HOSTEL LIST"
+            android:textSize="24sp"
+            android:transitionName="logo_text"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hostel names With phone number"
+            android:textSize="20dp"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/ross"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/hostell_iconn"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/ross"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="    Ross Boys Hostel"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp">
+
+        <ImageView
+            android:id="@+id/ross1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/phone_icon"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/ross1"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="    +92300515253"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/joey"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/hostell_iconn"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/joey"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="    Joey Boys Hostel"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp">
+
+        <ImageView
+            android:id="@+id/joey1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/phone_icon"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/joey1"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="    +923006162636"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/chandler"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/hostell_iconn"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/chandler"
+            android:padding="5dp"
+            android:text="    Chandler Boys Hostel"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp">
+
+        <ImageView
+            android:id="@+id/umair1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/phone_icon"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/umair1"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:text="    +923007172737"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:text="Back"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
