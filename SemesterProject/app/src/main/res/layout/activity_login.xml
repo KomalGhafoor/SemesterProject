@@ -33,7 +33,7 @@
         android:text="Sign In to continue"
         android:textColor="#100F0F"
         android:textSize="18sp"
-        android:transitionName="logo_desc" />
+        android:transitionName="logo_desc"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -43,23 +43,26 @@
         android:orientation="vertical">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/username"
+
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter your UserName">
+            android:hint="Enter Your Username"
+            >
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/loginusername"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter Your Username"
                 android:textColor="#191717"
                 android:textColorHint="#A19C9C"
-                android:transitionName="uname_trans"/>
+                android:transitionName="uname_trans"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/password"
+
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -68,6 +71,7 @@
             app:passwordToggleTint="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#FFC107"
@@ -78,11 +82,13 @@
                 android:textColorHint="#938F8F" />
         </com.google.android.material.textfield.TextInputLayout>
 
+
+
         <Button
             android:id="@+id/Login_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:background="#121212"
             android:text="Login"
@@ -104,6 +110,4 @@
             android:textSize="14sp" />
 
     </LinearLayout>
-
-
 </LinearLayout>
