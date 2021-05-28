@@ -151,8 +151,8 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="Girls Hostels"
-            android:textColor="@color/black"
-            android:background="@color/black"
+            android:textColor="@color/white"
+            android:background="@drawable/customshap3"
             android:layout_centerVertical="true"/>
 
         <Button
@@ -163,8 +163,8 @@
             android:layout_centerVertical="true"
             android:padding="10dp"
             android:text="Boys Hostels"
-            android:textColor="@color/black"
-            android:background="@color/black" />
+            android:textColor="@color/white"
+            android:background="@drawable/customshap3" />
 
     </RelativeLayout>
 
@@ -178,7 +178,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Back To Home"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="20sp" />
     </RelativeLayout>
 
