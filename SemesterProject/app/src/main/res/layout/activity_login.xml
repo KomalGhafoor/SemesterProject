@@ -41,7 +41,6 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:orientation="vertical">
-
         <com.google.android.material.textfield.TextInputLayout
 
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -54,34 +53,32 @@
                 android:id="@+id/loginusername"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter Your Username"
+
                 android:textColor="#191717"
                 android:textColorHint="#A19C9C"
                 android:transitionName="uname_trans"
                 />
         </com.google.android.material.textfield.TextInputLayout>
-
         <com.google.android.material.textfield.TextInputLayout
 
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter your Password"
             app:passwordToggleEnabled="true"
-            app:passwordToggleTint="@color/black">
+            app:passwordToggleTint="@color/black"
+            android:hint="Enter Your Password"
+            >
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#FFC107"
-                android:hint="Enter your Password"
-                android:transitionName="password_trans"
                 android:inputType="textPassword"
-                android:textColor="#1C1B1B"
-                android:textColorHint="#938F8F" />
+                android:textColor="#191717"
+                android:textColorHint="#A19C9C"
+                android:transitionName="password_trans"
+                />
         </com.google.android.material.textfield.TextInputLayout>
-
 
 
         <Button
@@ -90,7 +87,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:background="#121212"
+            android:background="#000"
             android:text="Login"
             android:textColor="#fff"
             android:transitionName="login_trans" />

@@ -83,26 +83,31 @@
         >
 
         <Button
-            android:id="@+id/categ02"
+
+            android:id="@+id/categ01"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginEnd="72dp"
-            android:background="@drawable/customshap1"
-            android:text="Category2"
+            android:background="@drawable/ic_bed"
+
+            android:text="2"
+
             android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/categ01"
+            android:id="@+id/categ02"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@drawable/customshap2"
-            android:text="Category1"
+            android:background="@drawable/ic_bed"
+            android:textFontWeight="10"
+            android:text="1"
+            android:textAlignment="center"
             android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/categ02"
+            app:layout_constraintEnd_toStartOf="@+id/categ01"
             app:layout_constraintHorizontal_bias="0.539"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
