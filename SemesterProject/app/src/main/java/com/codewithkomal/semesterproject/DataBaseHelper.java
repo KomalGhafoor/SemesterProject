@@ -83,4 +83,13 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         return count > 0;
 
     }
+    public Cursor ViewData(){
+
+        SQLiteDatabase sqLiteDatabase=this.getReadableDatabase();
+        Cursor cursor=sqLiteDatabase.rawQuery("select * from "+TABLE_NAME,null,null);
+
+        return cursor;
+
+
+    }
 }

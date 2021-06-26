@@ -8,9 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-
         android:theme="@style/Theme.SemesterProject">
-        <activity android:name=".boyList2"></activity>
+        <activity android:name=".editProfile"></activity>
+        <activity android:name=".boyList2" />
         <activity android:name=".boyList1" />
         <activity android:name=".girlList2" />
         <activity android:name=".girlList1" />
@@ -19,6 +19,7 @@
         <activity android:name=".Home" />
         <activity android:name=".Signup" />
         <activity android:name=".Login" />
+        <activity android:name=".Profile" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
